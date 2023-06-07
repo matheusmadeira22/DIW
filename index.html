@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href ="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <title>Shop.my</title>
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="topnav">
+          <a class="active" href="#home">Login</a>
+          <a href="#about">Register</a>
+          <a href="#contact">My Account</a>
+          <a href="#contact">Track Order</a>
+          <div id="busca">
+            <input class="busca" type="text" placeholder="Search.." data-search>
+            <button class="butao" onclick="buscar()">Buscar</button>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="buttons">
+      <button class="button-value" onclick="filterProduct('all')">All</button>
+      <button class="button-value" onclick="filterProduct('Menswear')">Menswear</button>
+      <button class="button-value" onclick="filterProduct('Womenwear')">Womenwear</button>
+      <button class="button-value" onclick="filterProduct('Electronics')">Electronics</button>
+      <button class="button-value" onclick="filterProduct('Jewelery')">Jewelery</button>
+    </div>
+    <div id="cards">
+      
+    </div>
+    <footer>
+      <div id="footer_content">
+          <div id="footer_medias">
+              <h3><b>Payment Methods</b></h3>
+              <div id="footer_social_media">
+                  <a href="#" class="footer-link" id="instagram">
+                      <i class="fa-brands fa-pix"></i>
+                  </a>
+                  <a href="#" class="footer-link" id="facebook">
+                      <i class="fa-brands fa-cc-mastercard"></i>
+                  </a>
+                  <a href="#" class="footer-link" id="whatsapp">
+                      <i class="fa-brands fa-cc-visa"></i>
+                  </a>
+              </div>
+          </div>
+          <div id="footer_contacts">
+            <h3>Data</h3>
+            <a href="#" class="footer-link">matheusmadeiracc@gmail.com</a>
+            <a href="#" class="footer-link">Matheus Magalhães Madeira</a>
+            <a href="#" class="footer-link">1442926</a>
+            <a href="#" class="footer-link">Ciencia da Computação</a>
+          </div>
+          <div id="footer-list">
+            <h3>Quick Links</h3>
+            <a href="#" class="footer-link">Help</a>
+            <a href="#" class="footer-link">Privacy Policy</a>
+            <a href="#" class="footer-link">Disclamer</a>
+          </div>
+      </div>
+  
+      <div id="footer_copyright">
+          &#169
+          2023 SNEAKERHEAD™
+      </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
